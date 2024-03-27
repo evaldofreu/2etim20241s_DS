@@ -10,4 +10,11 @@
         $this->tipo      = $data->tipo;
     }
 
+    function imprimir(){
+        echo "<tr><td>".$this->data."</td><td>".
+                 $this->descricao."</td><td>".
+                 $this->valor."</td><td>".
+                 $this->tipo."</td></tr>";
+    }
+
 }
