@@ -1,0 +1,126 @@
+{
+    "nome": "Fulano de Tal",
+    "conta": "123456-7",
+    "lançamentos": [
+        {
+            "data": "2024-03-01",
+            "descricao": "Salário",
+            "valor": 2000.00,
+            "tipo": "crédito"
+        },
+        {
+            "data": "2024-03-05",
+            "descricao": "Freelance de programação",
+            "valor": 300.00,
+            "tipo": "crédito"
+        },
+        {
+            "data": "2024-03-08",
+            "descricao": "Compra de mantimentos",
+            "valor": 100.00,
+            "tipo": "débito"
+        },
+        {
+            "data": "2024-03-10",
+            "descricao": "Transporte público",
+            "valor": 50.00,
+            "tipo": "débito"
+        },
+        {
+            "data": "2024-03-12",
+            "descricao": "Jantar fora",
+            "valor": 80.00,
+            "tipo": "débito"
+        },
+        {
+            "data": "2024-03-15",
+            "descricao": "Despesas com energia elétrica",
+            "valor": 120.00,
+            "tipo": "débito"
+        },
+        {
+            "data": "2024-03-18",
+            "descricao": "Freelance de programação",
+            "valor": 400.00,
+            "tipo": "crédito"
+        },
+        {
+            "data": "2024-03-20",
+            "descricao": "Aluguel",
+            "valor": 700.00,
+            "tipo": "débito"
+        },
+        {
+            "data": "2024-03-22",
+            "descricao": "Compra de roupas",
+            "valor": 150.00,
+            "tipo": "débito"
+        },
+        {
+            "data": "2024-03-25",
+            "descricao": "Freelance de programação",
+            "valor": 500.00,
+            "tipo": "crédito"
+        },
+        {
+            "data": "2024-03-28",
+            "descricao": "Curso de faculdade",
+            "valor": 250.00,
+            "tipo": "débito"
+        },
+        {
+            "data": "2024-03-29",
+            "descricao": "Gastos com internet",
+            "valor": 80.00,
+            "tipo": "débito"
+        },
+        {
+            "data": "2024-03-02",
+            "descricao": "Almoço",
+            "valor": 25.00,
+            "tipo": "débito"
+        },
+        {
+            "data": "2024-03-07",
+            "descricao": "Lanche",
+            "valor": 10.00,
+            "tipo": "débito"
+        },
+        {
+            "data": "2024-03-14",
+            "descricao": "Gasolina",
+            "valor": 80.00,
+            "tipo": "débito"
+        },
+        {
+            "data": "2024-03-17",
+            "descricao": "Cinema",
+            "valor": 40.00,
+            "tipo": "débito"
+        },
+        {
+            "data": "2024-03-21",
+            "descricao": "Despesas com água",
+            "valor": 50.00,
+            "tipo": "débito"
+        },
+        {
+            "data": "2024-03-24",
+            "descricao": "Freelance de programação",
+            "valor": 350.00,
+            "tipo": "crédito"
+        },
+        {
+            "data": "2024-03-26",
+            "descricao": "Compra de livros",
+            "valor": 90.00,
+            "tipo": "débito"
+        },
+        {
+            "data": "2024-03-30",
+            "descricao": "Despesas de saúde",
+            "valor": 120.00,
+            "tipo": "débito"
+        }
+    ]
+}
