@@ -6,16 +6,23 @@ class Produto {
   private $preco;
   private $tamanhos;
   private $cores;
+  private $imagem;
 
   
 
-  function __construct($id,  $nome,  $descricao,  $preco,  $tamanhos,  $cores){
+  function __construct($id,  $nome,  $descricao,  $preco,  $tamanhos,  $cores, $imagem){
     $this->id = $id;
     $this->nome = $nome;
     $this->descricao = $descricao;
     $this->preco = $preco;
     $this->tamanhos = $tamanhos;
     $this->cores = $cores;
+    $this->imagem = $imagem;
+
   }  
+  
+  function get($field){
+    return  $this->$field;
+  }
 
 }

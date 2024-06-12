@@ -9,6 +9,7 @@ class ProdutoHelper {
                 "Uniforme dos alunos do MTEC",
                 30.0,
                 "",
+                "",
                 ""
             ),
             new Produto(
@@ -16,6 +17,7 @@ class ProdutoHelper {
                 'Contribuição APM',
                 "Contribuição para pagar materiais de consumo.",
                 10.0,
+                "",
                 "",
                 ""
             ),
@@ -25,6 +27,7 @@ class ProdutoHelper {
                 "Espeto de carne de vaca",
                 10.0,
                 "",
+                "",
                 ""
             ),
             new Produto(
@@ -32,6 +35,7 @@ class ProdutoHelper {
                 'Espeto de Quiabo da GiGi',
                 "Espeto de quiabo",
                 8.0,
+                "",
                 "",
                 ""
             ),

@@ -4,6 +4,16 @@
     height: 100px;
   }   
 </style>
+
+
+
+
+<div class="row justify-content-end">
+  <div class="col-1 justify-content-end">
+   <a href="produto/create"  type="button" class="btn btn-outline-secondary">Novo</a>
+  </div> 
+</div>  
+
 <table class="table table-striped">
 <thead>
     <tr>
@@ -17,13 +27,13 @@
 
    <?php foreach($produtos as $p)  {  ?>
     <tr>
-      <th scope="row"><?=1?></th>
+      <th scope="row"><?= $p->get("id") ?></th>
       <td><img 
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiwKBeS07GNfUZMA1rB5d0Y_-zO6n0BPyzDhDCBDmJbw&s" 
+          src="<?=$p->get("imagem")?>" 
           class="img-produto">
        </td>
-      <td>Banana</td>
-      <td>R$ 5.5</td>
+      <td><?=$p->get("nome")?></td>
+      <td>R$ <?=$p->get("preco")?></td>
     </tr>
 
    <?php } ?> 
